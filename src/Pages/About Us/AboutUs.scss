@@ -1,0 +1,85 @@
+.aboutUs__content {
+  background-color: var(--dark);
+  min-height: 100vh;
+
+  .background__nft-image {
+    height: 100vh;
+    position: absolute;
+    right: 0;
+  }
+
+  .aboutUs__content__text {
+    .title {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 68px;
+      line-height: 80px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: var(--white);
+      span {
+        color: var(--bright-red);
+      }
+    }
+    .description {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 18px;
+      text-align: justify;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.75);
+      margin-top: 52px;
+      max-width: 700px;
+    }
+  }
+
+  .team__section {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(4, 196px);
+    grid-gap: 30px;
+    .members {
+      min-width: 142px;
+      min-height: 196px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      img {
+        height: 132px;
+        width: 132px;
+      }
+      .name {
+        margin-top: 16px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: var(--white);
+        span {
+          font-weight: 600;
+          margin-left: 5px;
+        }
+      }
+      .role {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: var(--bright-red);
+      }
+    }
+  }
+}
