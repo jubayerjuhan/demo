@@ -22,7 +22,7 @@ const Navbar = () => {
       path: "https://twitter.com/Crypto_Currency",
       img: twitter,
     },
-    { name: "cart", path: "https://twitter.com/Crypto_Currency", img: cart },
+    { name: "cart", path: "https://twitter.com/Crypto_Currency1", img: cart },
   ];
   return (
     <nav className="navbar horizontalPadding navbar-expand-lg navbar-dark bg-dark">
