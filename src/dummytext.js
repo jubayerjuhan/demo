@@ -17,7 +17,28 @@ export const whatTheFisuniverse25 =
   Ultrakrobel. Eurolyns plaling ifall decibelt. Dena kontranade plaska dotir. 
   Hungen byling i prebyr. Dityning bebyligt terat i intrapp. Trerat tilingar att ditätyng. `
 
-
+export const whatTheFOBrian = `
+Dian onde tiplassa. Bed vössade alltså vade, nivis. Kvasir prende. 
+Bed krons samt bomölig gigadol. Prer teras fanovis i byspevis. Dor trerade i mösk. 
+Gän tesa såväl som eurojask sang. Vara tegon. Intragt hypoktiga. 
+Planingen bebydade. Dongar ultratyr. Vukroling dibelt benar fastän kvaside. 
+Loteligen mir dinevun. Penade köfydegon, jag nykaling viköhål. Net mir kvasins, jäda. 
+Ingen otäd utom megabälig. Aning. Makron rer kronde. 
+Megakarade pseudost bys. Fuling bektiga. Dibynygt homogåre osade. 
+Kofasade dende tir infralytt. Predade. Krotys nese och gigabelt. Du kan vara drabbad. 
+Geot er och or. Debäs dir katest, har homosehet. Bes setibyrade. Du kan vara drabbad. Lans plavönade. Trel ona. Tägt rede, stenogäskapet. 
+Okrobelt tres, vana och dolenat. Laska nening lodode. Homol janobybel tiktigt en ahuk. 
+Sere. Bäledes anarar moliga nybyd. Poktigt decibyliga gär plajament. 
+Möpreskap. Nyv. Krons futigäning pseudor. 
+Lavusat speporar. Kropp hexavis, vabär subisk. Bylaren unade os. 
+Eunera dett heterofyr ett hun. Desade miguren. Multiskapet proren. 
+Äling sunt, har hexanibygon. Dipon salerade. Köbin nererar såväl som guren. 
+Os teska. Byligt mider. Disat vilada fast trena. Du kan vara drabbad. 
+Bining mosm, fugon: geohet. Desk el dengen bäde. Dinar autoling kvasinde trira. 
+Reangen vulingar, i debel sylening. Makrobäkaren duktig men diamögisk. Reragisk mön odelig. 
+Euroduvis. Bende nyving att valigen, vapode. Posm posk innan spena, tegurad. Du kan vara drabbad. 
+Ultrakrobel. Eurolyns plaling ifall decibelt. Dena kontranade plaska dotir. 
+Hungen byling i prebyr. Dityning bebyligt terat i intrapp. Trerat tilingar att ditätyng. `
 import Flavio from './assets/Members/Flavio.svg'
 import George from './assets/Members/George.svg'
 import Ivan from './assets/Members/Ivan.svg'
@@ -88,4 +109,26 @@ export const teamMembers = [
     role: 'Artist',
     avatar: TBA,
   },
+]
+
+
+export const faqs = [
+  {
+    title: 'Wen is drop', description: `Dian onde tiplassa. Bed vössade alltså vade, nivis. Kvasir prende. 
+  Bed krons samt bomölig gigadol. Prer teras fanovis i byspevis. Dor trerade i mösk. 
+  Gän tesa såväl som eurojask sang. Vara tegon. Intragt hypoktiga. 
+  Planingen bebydade. Dongar ultratyr. Vukroling dibelt benar fastän kvaside. 
+  Loteligen mir dinevun. Penade köfydegon, jag nykaling viköhål. Net mir kvasins, jäda.` },
+  {
+    title: 'Wen is drop', description: `Dian onde tiplassa. Bed vössade alltså vade, nivis. Kvasir prende. 
+  Bed krons samt bomölig gigadol. Prer teras fanovis i byspevis. Dor trerade i mösk. 
+  Gän tesa såväl som eurojask sang. Vara tegon. Intragt hypoktiga. 
+  Planingen bebydade. Dongar ultratyr. Vukroling dibelt benar fastän kvaside. 
+  Loteligen mir dinevun. Penade köfydegon, jag nykaling viköhål. Net mir kvasins, jäda.` },
+  {
+    title: 'Wen is drop', description: `Dian onde tiplassa. Bed vössade alltså vade, nivis. Kvasir prende. 
+  Bed krons samt bomölig gigadol. Prer teras fanovis i byspevis. Dor trerade i mösk. 
+  Gän tesa såväl som eurojask sang. Vara tegon. Intragt hypoktiga. 
+  Planingen bebydade. Dongar ultratyr. Vukroling dibelt benar fastän kvaside. 
+  Loteligen mir dinevun. Penade köfydegon, jag nykaling viköhål. Net mir kvasins, jäda.` },
 ]

@@ -2,9 +2,16 @@ import React from "react";
 import Navbar from "../../components/Navbar/Navbar.jsx";
 import "./AboutUs.scss";
 import nftPhoneModel from "../../assets/nftBackground.png";
-import { teamMembers, whatTheFisuniverse25 } from "../../dummytext.js";
+import {
+  faqs,
+  teamMembers,
+  whatTheFisuniverse25,
+  whatTheFOBrian,
+} from "../../dummytext.js";
+import Faq from "../../components/Faq/Faq.jsx";
 
 const AboutUs = () => {
+  const [faqOpen, setFaqOpen] = React.useState(false);
   return (
     <div className="aboutUs">
       <Navbar />
@@ -49,10 +56,25 @@ const AboutUs = () => {
           <p className="title">
             WHAT THE F*** IS
             <br />
-            <span>UNIVERSE.25</span>
+            <span>O’BRIEN</span>
           </p>
           <div className="description">
-            <p>{whatTheFisuniverse25}</p>
+            <p>{whatTheFOBrian}</p>
+          </div>
+        </div>
+      </div>
+      <div className="aboutUs__content redBackground horizontalPadding paddingTop">
+        <img className="background__nft-image" src={nftPhoneModel} alt="" />
+        <div className="faqs">
+          <p className="title">FAQS</p>
+          <div className="faq__container">
+            {faqs.map((faq, index) => (
+              <Faq
+                title={faq.title}
+                description={faq.description}
+                key={index}
+              />
+            ))}
           </div>
         </div>
       </div>
