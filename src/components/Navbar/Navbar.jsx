@@ -5,7 +5,7 @@ import twitter from "../../assets/twitter.svg";
 import profileIcon from "../../assets/profileIcon.svg";
 import cart from "../../assets/cart.svg";
 import "./navbar.scss";
-
+import { Link } from "react-router-dom";
 const Navbar = () => {
   const navlinks = [
     { name: "Home", path: "/" },
@@ -31,19 +31,23 @@ const Navbar = () => {
       </div>
       <div className="navbar__links">
         {navlinks.map((link) => (
-          <div className="link" key={link.path}>
-            <p>{link.name}</p>
-          </div>
+          <Link key={link.path} to={link.path}>
+            <div className="link" key={link.path}>
+              <p>{link.name}</p>
+            </div>
+          </Link>
         ))}
         {logos.map((logo) => (
           <div className="link" key={logo.path}>
             <img src={logo.img} alt="" srcset="" className="socialLogo" />
           </div>
         ))}
-        <div className="link loginButton">
-          <img src={profileIcon} alt="" />
-          <p>Login</p>
-        </div>
+        <Link to="/account">
+          <div className="link loginButton">
+            <img src={profileIcon} alt="" />
+            <p>Login</p>
+          </div>
+        </Link>
       </div>
     </nav>
   );

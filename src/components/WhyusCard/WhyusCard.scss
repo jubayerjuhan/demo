@@ -1,0 +1,41 @@
+.why__us-card {
+  width: 230px;
+  height: 388px;
+  background: #c4c4c4;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  align-items: center;
+  padding: 50px 30px;
+
+  img {
+    width: 123px;
+    height: 104px;
+  }
+  .card__title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #7f0404;
+    margin-top: 32px;
+  }
+  .card__subtitle {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #1b1b1b;
+    margin-top: 17px;
+  }
+}

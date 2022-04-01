@@ -1,3 +1,4 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.scss';
 import logo from './assets/navlogo.svg'
 import Navbar from './components/Navbar/Navbar.jsx';
@@ -11,7 +12,15 @@ function App() {
       {/* <Navbar /> */}
       {/* <AboutUs /> */}
       {/* <StakePool /> */}
-      <Account />
+      {/* <Account /> */}
+      <Router>
+        <Routes>
+          <Route path='/about-us' element={<AboutUs />} />
+          <Route exact path='/' element={<AboutUs />} />
+          <Route path='/stake-pool' element={<StakePool />} />
+          <Route path='/account' element={<Account />} />
+        </Routes>
+      </Router>
     </div>
   );
 }

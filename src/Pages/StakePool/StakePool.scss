@@ -1,0 +1,212 @@
+.unv25__container {
+  padding-top: 154px;
+  position: relative;
+  padding-bottom: 154px;
+  background-color: #7f0404;
+  .stake__pool {
+    .title {
+      font-family: var(--font-family);
+      font-style: normal;
+      font-weight: 800;
+      font-size: 68px;
+      line-height: 80px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: var(--white);
+    }
+    .subtitle {
+      max-width: 761px;
+      margin-top: 44px;
+      font-family: var(--font-family);
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 18px;
+      text-align: justify;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+
+      color: rgba(255, 255, 255, 0.5);
+    }
+  }
+  .sideMousePic {
+    position: absolute;
+    width: 540px;
+    height: 521px;
+    right: 298px;
+    bottom: -106px;
+  }
+}
+
+.why__us-container {
+  padding-top: 143px;
+  .header {
+    .title {
+      font-family: var(--font-family);
+      font-style: normal;
+      font-weight: 800;
+      font-size: 68px;
+      line-height: 80px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: var(--white);
+    }
+    .subtitle {
+      margin-top: 18px;
+      font-family: var(--font-family);
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 28px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: var(--bright-red);
+    }
+    .description {
+      font-family: var(--font-family);
+      margin-top: 10px;
+      max-width: 761px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 18px;
+      text-align: justify;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+
+      color: rgba(255, 255, 255, 0.5);
+    }
+  }
+}
+
+.why__us-cards-container {
+  padding: 94px 0px 136px 0px;
+  display: grid;
+  grid-template-columns: repeat(5, 230px);
+  grid-gap: 99px;
+}
+
+.how__to-deligate {
+  background: #c4c4c4;
+  padding-top: 92px;
+  padding-bottom: 117px;
+
+  .header__title {
+    font-family: var(--font-family);
+    height: 147px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 68px;
+    line-height: 80px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #1b1b1b;
+  }
+}
+
+.deligate__wallet-container {
+  display: grid;
+  grid-template-columns: repeat(3, 421px);
+  grid-gap: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.deligate__wallet-card {
+  width: 421px;
+  height: 725px;
+  background: #bcbcbc;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 19px;
+  .wallet-card__header {
+    padding: 19px 40px;
+    background: #a7a7a7;
+    backdrop-filter: blur(4px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 20px 20px 0px 0px;
+    p {
+      text-align: center;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 42px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #fffefe;
+    }
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
+    padding: 0 30px 30px 30px;
+    img {
+      width: 258px;
+      height: 280px;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      margin-top: 12px;
+    }
+
+    .card__title {
+      margin-top: 16px;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 35px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #e20e0e;
+    }
+    .description {
+      // width: 100%;
+      margin-top: 31px;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 23px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #000000;
+      p {
+        margin-bottom: 5px;
+      }
+    }
+    .deligate__button {
+      margin-top: 26px;
+      width: 168px;
+      height: 45px;
+      background: #1b1b1b;
+      border-radius: 13px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      p {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 25px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+.faq__section {
+  position: relative;
+  padding-bottom: 143.61px;
+  .heroPic {
+    position: absolute;
+    top: 291px;
+    right: 296px;
+  }
+}

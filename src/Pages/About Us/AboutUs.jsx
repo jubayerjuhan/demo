@@ -9,6 +9,7 @@ import {
   whatTheFOBrian,
 } from "../../dummytext.js";
 import Faq from "../../components/Faq/Faq.jsx";
+import FAQContainer from "../../components/FAQContainer/FAQContainer.jsx";
 
 const AboutUs = () => {
   const [faqOpen, setFaqOpen] = React.useState(false);
@@ -65,18 +66,7 @@ const AboutUs = () => {
       </div>
       <div className="aboutUs__content redBackground horizontalPadding paddingTop">
         <img className="background__nft-image" src={nftPhoneModel} alt="" />
-        <div className="faqs">
-          <p className="title">FAQS</p>
-          <div className="faq__container">
-            {faqs.map((faq, index) => (
-              <Faq
-                title={faq.title}
-                description={faq.description}
-                key={index}
-              />
-            ))}
-          </div>
-        </div>
+        <FAQContainer />
       </div>
     </div>
   );

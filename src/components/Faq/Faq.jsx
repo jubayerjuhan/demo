@@ -2,10 +2,15 @@ import React from "react";
 import arrowDown from "../../assets/Sign/arrowdown.svg";
 import arrowRight from "../../assets/Sign/arrowright.svg";
 import "./faq.scss";
-const Faq = ({ title, description }) => {
+const Faq = ({ title, description, mb }) => {
   const [faqOpen, setFaqOpen] = React.useState(false);
   return (
-    <div className="faq__wrapper">
+    <div
+      className="faq__wrapper"
+      style={{
+        marginBottom: mb ? mb : "38px",
+      }}
+    >
       <div className="faq">
         <img
           src={faqOpen ? arrowDown : arrowRight}

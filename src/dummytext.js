@@ -131,4 +131,80 @@ export const faqs = [
   Gän tesa såväl som eurojask sang. Vara tegon. Intragt hypoktiga. 
   Planingen bebydade. Dongar ultratyr. Vukroling dibelt benar fastän kvaside. 
   Loteligen mir dinevun. Penade köfydegon, jag nykaling viköhål. Net mir kvasins, jäda.` },
+  {
+    title: 'Wen is drop', description: `Dian onde tiplassa. Bed vössade alltså vade, nivis. Kvasir prende. 
+  Bed krons samt bomölig gigadol. Prer teras fanovis i byspevis. Dor trerade i mösk. 
+  Gän tesa såväl som eurojask sang. Vara tegon. Intragt hypoktiga. 
+  Planingen bebydade. Dongar ultratyr. Vukroling dibelt benar fastän kvaside. 
+  Loteligen mir dinevun. Penade köfydegon, jag nykaling viköhål. Net mir kvasins, jäda.` },
+  {
+    title: 'Wen is drop', description: `Dian onde tiplassa. Bed vössade alltså vade, nivis. Kvasir prende. 
+  Bed krons samt bomölig gigadol. Prer teras fanovis i byspevis. Dor trerade i mösk. 
+  Gän tesa såväl som eurojask sang. Vara tegon. Intragt hypoktiga. 
+  Planingen bebydade. Dongar ultratyr. Vukroling dibelt benar fastän kvaside. 
+  Loteligen mir dinevun. Penade köfydegon, jag nykaling viköhål. Net mir kvasins, jäda.` },
+  {
+    title: 'Wen is drop', description: `Dian onde tiplassa. Bed vössade alltså vade, nivis. Kvasir prende. 
+  Bed krons samt bomölig gigadol. Prer teras fanovis i byspevis. Dor trerade i mösk. 
+  Gän tesa såväl som eurojask sang. Vara tegon. Intragt hypoktiga. 
+  Planingen bebydade. Dongar ultratyr. Vukroling dibelt benar fastän kvaside. 
+  Loteligen mir dinevun. Penade köfydegon, jag nykaling viköhål. Net mir kvasins, jäda.` },
+  {
+    title: 'Wen is drop', description: `Dian onde tiplassa. Bed vössade alltså vade, nivis. Kvasir prende. 
+  Bed krons samt bomölig gigadol. Prer teras fanovis i byspevis. Dor trerade i mösk. 
+  Gän tesa såväl som eurojask sang. Vara tegon. Intragt hypoktiga. 
+  Planingen bebydade. Dongar ultratyr. Vukroling dibelt benar fastän kvaside. 
+  Loteligen mir dinevun. Penade köfydegon, jag nykaling viköhål. Net mir kvasins, jäda.` },
+  {
+    title: 'Wen is drop', description: `Dian onde tiplassa. Bed vössade alltså vade, nivis. Kvasir prende. 
+  Bed krons samt bomölig gigadol. Prer teras fanovis i byspevis. Dor trerade i mösk. 
+  Gän tesa såväl som eurojask sang. Vara tegon. Intragt hypoktiga. 
+  Planingen bebydade. Dongar ultratyr. Vukroling dibelt benar fastän kvaside. 
+  Loteligen mir dinevun. Penade köfydegon, jag nykaling viköhål. Net mir kvasins, jäda.` },
 ]
+
+
+export const stakePoolText = `UNV25 IS A HIGHLY PERFORMANT AND RESILIENT STAKE POOL FOR THE
+CARDANO NETWORK. WE HAVE A SOLID, FAST, RELIABLE, AND SECURE CLOUD
+INFRASTRUCTURE WITH A PROFESSIONAL TEAM FOR CONSISTENT STAKING
+REWARDS.WITH COMMUNITY MIND WE AIM TO ALWAYS ENSURE WE COME UP
+WITH SOME DOPE REWARDS FOR OUR DELEGATORS AND HOLDERS!`
+
+
+export const wallets = [
+  {
+    title: "Nami Wallet",
+    name: "UNV25: NAMI",
+    hasBtn: true,
+    description: [
+      "1. Download the Nami Wallet extension",
+      "2. Create/select your wallet",
+      "3. Send funds to your wallet",
+      "4. Click DELEGATE WITH NAMI Button on our website",
+    ],
+  },
+  {
+    title: "daedalus wallet",
+    name: "UNV25: DAEDALUS ",
+    hasBtn: false,
+    description: [
+      "1. Download the Daedalus app",
+      "2. Create/select your wallet",
+      "3. Select Delegation Centre -> Stake pools",
+      "4. Search for our stake pool ticker: UNV25.",
+      "Select to delegate",
+    ],
+  },
+  {
+    title: "YOROI wallet",
+    name: "UNV25: yoroi ",
+    hasBtn: false,
+    description: [
+      "1. Download the Daedalus app",
+      "2. Create/select your wallet",
+      "3. Select Delegation Centre -> Stake pools",
+      "4. Search for our stake pool ticker: UNV25.",
+      "Select to delegate",
+    ],
+  },
+];

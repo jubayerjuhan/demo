@@ -8,7 +8,7 @@
     right: 0;
     bottom: 0;
   }
-  
+
   .aboutUs__content__text {
     .title {
       font-family: "Roboto";
@@ -82,25 +82,6 @@
         color: var(--bright-red);
       }
     }
-  }
-
-  .faqs {
-    padding-top: 152px;
-    .title {
-      height: 147px;
-      font-family: "Roboto";
-      font-style: normal;
-      font-weight: 800;
-      font-size: 68px;
-      line-height: 80px;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-      color: black;
-    }
-  }
-
-  .faq__container {
-    max-width: 847px;
   }
 }
 
